@@ -5,9 +5,9 @@ import Project2 from "../images/project2.png";
 import Project1 from "../images/eden-noodle.jpg";
 import { Link } from "react-router-dom";
 
-export default function Projects(props) {
+export default function Projects() {
     function linkGithub(e) {
-        window.location.href = "mailto:mathewdewes@hotmail.com";
+        window.location.href = "https://github.com/mathewdewes";
         e.preventDefault();
 
     }
@@ -29,8 +29,8 @@ export default function Projects(props) {
                     </div>
                     <div className="projects__card">
                         {<img src={Project2} alt="" />}
-                        <h2>To-do list App</h2>
-                        <form method="get" action="https://0xfo4m.csb.app/">
+                        <h2>KiwiGo rentals</h2>
+                        <form method="get" action="https://github.com/mathewdewes">
                             <button>Preview</button>
                         </form>
                         { }

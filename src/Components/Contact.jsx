@@ -22,8 +22,8 @@ export default function Contact(){
             <p>I am on the verge of gaining as much knowledge as I can to achieve my goals. For I may not know as much as people who have been in this field longer than me, I am content and willing to put in the time and effort to add value to anyone inclined to give me an opportunity.
 </p>
           <div className="contact__details">
-             <p><span className="contact__icons">{phoneLogo}</span>0220199006</p>
-            <p><span className="contact__icons">{envelope}</span> <Link to="#" onClick={linkEmail}>mathewdewes@hotmail.com</Link></p>
+             <p><span className="contact__icons">{phoneLogo}</span><span className="phone">0220199006</span> </p>
+            <p><span className="contact__icons">{envelope}</span> <Link to="#" onClick={linkEmail}><span className="email">mathewdewes@hotmail.com</span></Link></p>
           </div>
            
             </div>
