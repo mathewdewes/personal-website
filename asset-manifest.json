@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mathewdewes/personal-website/static/css/main.f7520baa.css",
+    "main.js": "/mathewdewes/personal-website/static/js/main.20845a65.js",
+    "static/media/beach.jpg": "/mathewdewes/personal-website/static/media/beach.9423da41961a0f31c767.jpg",
+    "static/media/profile-img.jpg": "/mathewdewes/personal-website/static/media/profile-img.0f7f9c8929093a9f6c24.jpg",
+    "static/media/eden-noodle.jpg": "/mathewdewes/personal-website/static/media/eden-noodle.3153b8419c717cbb3067.jpg",
+    "static/media/project2.png": "/mathewdewes/personal-website/static/media/project2.3e91697f81f836182e75.png",
+    "index.html": "/mathewdewes/personal-website/index.html",
+    "main.f7520baa.css.map": "/mathewdewes/personal-website/static/css/main.f7520baa.css.map",
+    "main.20845a65.js.map": "/mathewdewes/personal-website/static/js/main.20845a65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7520baa.css",
+    "static/js/main.20845a65.js"
+  ]
+}
