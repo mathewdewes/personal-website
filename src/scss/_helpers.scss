@@ -1,0 +1,7 @@
+@mixin flex-down($gap){
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
+$background-color :background-color#151515;
+$primary-color: #00ABB3;

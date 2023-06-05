@@ -1,0 +1,66 @@
+.container{
+    margin: 20px 50px;
+    min-height: 700px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    }
+
+main{
+    display: grid;
+    grid-template-rows: auto;
+    height: 100vh;
+}
+
+.active{
+    color: $primary-color;
+    font-size: 20px;
+  
+  
+}
+img{
+    max-width: 600px;
+    min-width: 100px;
+}
+
+
+hr{
+    border:none;
+    height: 1px;
+    color: white;
+    background-color: white;
+    width: 400px;
+}
+
+li{
+    font-weight: 300;
+}
+ul{
+   @include flex-down(10px)
+}
+
+
+
+a{
+    font-weight: 400;
+    color: $primary-color;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+

@@ -1,0 +1,45 @@
+  
+
+@media(max-width:$medium-screen){
+  
+
+    .contact{
+        &__content{
+            grid-column: 1 / -1;
+            text-align: center;
+            width: 600px;
+    
+        }
+        &__details{
+            margin-top: 100px;
+            @include flex-down(30px);
+            text-align: start;
+           
+         }
+    }
+
+}
+
+
+
+@media(max-width:$mobile){
+
+
+
+
+
+.contact{
+    &__content{
+        grid-column: 1 / -1;
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+   
+    
+    
+
+}

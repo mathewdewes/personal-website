@@ -1,0 +1,72 @@
+$medium-screen: 1200px;
+$mobile:720px;
+@media(max-width:$medium-screen){
+  
+    .projects{
+ &__container{
+            grid-column: 1 / -1;  
+            text-align: center;
+            @include flex-down(20px);
+            grid-row: 1;
+            width: 600px;
+            margin: 0 auto;
+           
+        }
+        &__card-div{
+            @include flex-down(50px);
+            grid-column: 1 / -1;
+            margin: auto;
+           }
+    }
+}
+
+@media(max-width:$mobile){
+
+    .projects{
+        &__container{
+            grid-column: 1 / -1;  
+            text-align: center;
+            @include flex-down(20px);
+            grid-row: 1;
+            width: 100%;
+            margin: 0 auto;
+        }
+       &__card-div{
+        @include flex-down(30px);
+        grid-column: 1 / -1;
+        margin: auto;
+       }
+        &__card{
+            img{
+                border-radius: 10px;
+            }
+            grid-column: 1 / -1;
+            position: relative;
+            border: solid white 1px;
+            height: 150px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            h2{
+                position: absolute;
+                top:10px;
+                font-weight: bold;
+                color: white;
+                font-size: 18px;
+                display: block;
+                width: 100%;
+            }
+    
+            button{
+                width: 80px;
+                height: 40px;
+               
+               
+            
+    
+        
+            }
+        }
+     
+    }
+}

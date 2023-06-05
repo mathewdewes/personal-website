@@ -1,0 +1,37 @@
+// Home 
+.home{
+    &__image{
+        grid-column: 2;
+        width: 100%
+    }
+    &__content{
+        @include flex-down(30px);
+        margin-right: 20px;
+        height: 100%;
+        grid-column: 1;
+        a{
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+    &__work{
+        margin-top: 30px;
+        @include flex-down(10px);
+        grid-column: 1;
+    }
+    &__education{
+        grid-column: 3 / -1;
+        @include flex-down(10px);
+        margin-left: 20px;
+    
+        .dates{
+            font-weight: 200;
+            font-size: 16px;
+         
+        }
+        }
+
+     
+}
+

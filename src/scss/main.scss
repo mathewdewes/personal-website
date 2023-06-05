@@ -1,0 +1,70 @@
+
+@import "./helpers";
+@import "./setup";
+@import "./navbar";
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/projects";
+@import "./pages/contact";
+@import "./responsive";
+@import "./responsive/res_home";
+@import "./responsive/res_about";
+@import "./responsive/res_projects";
+@import "./responsive/res_contact";
+
+
+
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #151515;
+    color: white;
+}
+
+p{
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+
+h1{
+    font-weight: 500;   
+    color: #00ABB3; 
+    }
+
+h2, h3{
+        font-weight: 400;
+        color: #00ABB3;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

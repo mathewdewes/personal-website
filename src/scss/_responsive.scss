@@ -1,0 +1,31 @@
+$medium-screen: 1200px;
+$mobile:720px;
+
+
+@media(max-width:$mobile){
+    .home__content h1{
+        text-align: center;
+    }
+    hr{
+        width: 100%;
+    }
+    p{
+        font-size: 16px;
+    }
+   .navbar{
+        justify-content: start;
+    }
+    .navbar a{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .dropDown a{
+        display: block;
+    }
+}
+   
+
+
+
