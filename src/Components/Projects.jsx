@@ -30,7 +30,7 @@ export default function Projects() {
                     <div className="projects__card">
                         {<img src={Project2} alt="" />}
                         <h2>KiwiGo rentals</h2>
-                        <form method="get" action="https://github.com/mathewdewes">
+                        <form method="get" action="https://mathewdewes.github.io/KiwiGo-App/">
                             <button>Preview</button>
                         </form>
                         { }
